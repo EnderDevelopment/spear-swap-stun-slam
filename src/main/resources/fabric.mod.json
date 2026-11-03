@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "spearstunslam",
+  "version": "${mod_version}",
+  "name": "Spear Stun Slam",
+  "description": "A mod that allows spear swapping and automatic stun slamming with shields.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/SpearStunSlam"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.spearstunslam.SpearStunSlamMod"
+    ]
+  },
+  "mixins": [
+    "spearstunslam.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}
